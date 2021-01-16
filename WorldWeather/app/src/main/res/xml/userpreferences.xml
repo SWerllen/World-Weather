@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:weather="http://schemas.android.com/apk/res/com.haringeymobile.ukweather">
+                  xmlns:weather="http://schemas.android.com/apk/res-auto">
 
     <com.haringeymobile.ukweather.settings.CustomListPreference
         android:defaultValue="@string/pref_temperature_scale_id_default"

@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId "com.haringeymobile.ukweather"
-        minSdkVersion 14
-        targetSdkVersion 25
+        minSdkVersion 18
+        targetSdkVersion 28
         versionCode 30
         versionName "1.2.5"
 
@@ -26,11 +26,12 @@ android {
 }
 
 dependencies {
-    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
-    compile 'com.android.support:support-v4:25.3.1'
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support:recyclerview-v7:25.3.1'
+    implementation 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    implementation 'com.android.support:support-v4:25.0.0'
+    implementation 'com.android.support:appcompat-v7:25.0.0'
+    implementation 'com.android.support:recyclerview-v7:25.0.0'
     //noinspection GradleDependency
-    compile 'com.google.code.gson:gson:1.7.1'
-    compile project(':drag-sort-listview')
+    implementation 'com.google.code.gson:gson:1.7.1'
+    implementation project(':drag-sort-listview')
+//    androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
 }
