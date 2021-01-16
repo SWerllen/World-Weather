@@ -27,9 +27,9 @@ android {
 
 dependencies {
     implementation 'com.astuetz:pagerslidingtabstrip:1.0.1'
-    implementation 'com.android.support:support-v4:25.0.0'
-    implementation 'com.android.support:appcompat-v7:25.0.0'
-    implementation 'com.android.support:recyclerview-v7:25.0.0'
+    implementation 'com.android.support:support-v4:25.3.1'
+    implementation 'com.android.support:appcompat-v7:25.3.1'
+    implementation 'com.android.support:recyclerview-v7:25.3.1'
     //noinspection GradleDependency
     implementation 'com.google.code.gson:gson:1.7.1'
     implementation project(':drag-sort-listview')
